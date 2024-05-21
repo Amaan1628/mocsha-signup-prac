@@ -3,10 +3,10 @@ function App() {
     //main screen
     <div className="h-screen flex ">
       {/* //purple div */}
-      <div className="bg-gradient-to-b from-lightPurple to-darkPurple h-screen w-7/12 relative">
+      <div className="bg-gradient-to-b from-lightPurple via-mediumPurple to-darkPurple h-screen w-7/12 relative">
 
         <img src="../images/spiral.png" alt="spiral" 
-        className="absolute pl-[1000px]" />
+        className="absolute pl-[1000px]"/>
         <img src="../images/dots.png" alt="dots" 
         className="absolute" />
         <img src="../images/outerEllipse.png" alt="out ellipse" 
@@ -16,10 +16,14 @@ function App() {
         <img src="../images/blurEllipse.png" alt="blur img" 
         className="absolute pl-[972px] pt-[760px]" />
         
+        <h1 className="absolute pl-[300px] pt-[170px] w-[800px] z-10  font-RobotoSerif font-semibold text-[48px] text-white">Embark on Your Learning Adventure with 
+          <span className="font-Syne font-bold text-[56px]">{" "}Mocsha</span>
+        </h1>
+        <img className="absolute z-10 pt-[446px] pl-[250px]" src="../images/girlImage.png" alt="girl"/>
+        <img className="absolute z-10 pt-[596px] pl-[250px]" src="../images/imageEllipse.png" alt="ellipse"/>
 
-        <div className=" pt-20 pl-20 h-[805px] w-[642px] rounded-xl bg-red-50">
-          <h1 className="text-RobotoSerif">Embark on Your Learning Adventure with <span className="text-Syne">Mocsha</span></h1>
-          
+        <div className="flex flex-col absolute mt-[70px] ml-[150px] h-[805px] w-[842px] rounded-xl bg-white shadow-lg  opacity-25">
+
         </div>
 
       </div>
@@ -46,7 +50,7 @@ function App() {
           <div className="flex justify-end w-[55%]">
             <h4 className="text-textColor  text-[14px] font-regular font-Roboto">
               Dont have an account?{" "}
-              <span className="text-OTPButton text-[16px] font-Roboto font-medium">
+              <span className="text-OTPButton text-[16px] font-Roboto font-medium cursor-pointer">
                 Sign Up
               </span>
             </h4>

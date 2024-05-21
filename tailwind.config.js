@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       colors:{
         lightPurple: '#6843CD',
+        mediumPurple: '#291465',
         darkPurple: '#11013C',
         textPurple: '#24027E',
         OTPButton:'#5D39BE',
